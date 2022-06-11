@@ -9,6 +9,17 @@ Using Python, Pandas functions and methods, and SQLAlchemy, we’ll filter the d
 
 The data provided gave us insight that for the months of June and December, our location had a total temperatures of:
 
+#### June
+![June_Temps](https://github.com/vvinci21/surfs_up/blob/a529729721363cef7e81df617d5628db866cd1b8/Resources/June_Temps.png)
+
+#### December
+![December_Temps](https://github.com/vvinci21/surfs_up/blob/a529729721363cef7e81df617d5628db866cd1b8/Resources/December_Temps.png)
+
+* June on average is almost 4 degrees warmer than December.
+* However, the max temperature recorded in June was 85 which is only 2 degrees warmer than Decembers max of 83.
+* The minimum in June is 64 while in December it is 59 which is significantly different.
+* All of the quartiles are only differing by 3 or 4 degrees.
+
 ### Summary:
 
-Based on our Data Analysis, Data Provided, we can state as a high-level summary of results that Standard deviation is 3.25 in June and 3.75 in December, making a 0.5 difference between both seasons. In addition, current data provide attributes such precipitation and others, with two queries that our analysis pursue, performing weather data for June and December that helps results to decide how we would like to build the shop and what areas would make this location attractive to visitors to stop by and have a successful business.
+Based on our data analysis, we can conclude that even though the max and minimum temperatures differ, the temperatures are relatively similar in June and December. The quartiles are all relatively close within a few degrees of each other. Additionally we can query for precipitation amounts and the corresponding locations to determine optimal shop locations. These additional queries with the data we already have will help us determine the surf and ice cream shop is sustainable year-round as well as where to locate it. 
